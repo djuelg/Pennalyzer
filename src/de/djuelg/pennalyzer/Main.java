@@ -10,8 +10,8 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("res/pennalyzer.fxml"));
-        root.getStylesheets().add(getClass().getResource("res/pennalyzer.css").toExternalForm());
+        Parent root = FXMLLoader.load(getClass().getResource("/pennalyzer.fxml"));
+        root.getStylesheets().add(getClass().getResource("/pennalyzer.css").toExternalForm());
         primaryStage.setTitle("Pennalyzer");
         primaryStage.setScene(new Scene(root, 800, 600));
         primaryStage.show();
